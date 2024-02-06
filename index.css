@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Karla";
+    src: url("fonts/Karla-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+body {
+    margin: 0;
+}
+#container{
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    margin: 10px auto;
+}
+#heading_container{
+    width: 446px;
+    height: 361px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #2f3e53;
+}
+h1{
+    font-family: "Karla",Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 2.5%;
+    color: #Fff;
+    margin: 0;
+}
+.green_heading{
+    color: #4adf86;
+}
+p{
+    font-family: "Inter",Verdana, Geneva, Tahoma, sans-serif;
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 5px;
+}
+button{
+    width: 191px;
+    height: 42px;
+    border-radius: 6px;
+    padding: 9px, 17px, 9px, 15px;
+    background-color: #10B981;
+    font-family: "Inter",Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 60px;
+}
+#passwords_container{
+    width: 446px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#passwords_container div{
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    border-radius: 6px;
+}
+
+#password1,#password2{
+    color: #55F991;
+    text-align: center;
+    line-height: 39px;
+    font-family: "Inter",Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
